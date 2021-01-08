@@ -1,0 +1,53 @@
+.no-start-value {
+    color: green;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.start-value {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.field {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.width15percent {
+    width: 15%;
+}
+
+.inputcell {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.table td {
+    border-top: none;
+    text-align: center;
+}
+
+.buttonmargin {
+    margin-top: 20px;
+}
+td.bordertop {
+    border-top: 2px solid black;
+}
+
+td.borderbottom {
+    border-bottom: 2px solid black;
+}
+
+td.borderleft {
+    border-left: 2px solid black;
+}
+
+td.borderright {
+    border-right: 2px solid black;
+}
+
