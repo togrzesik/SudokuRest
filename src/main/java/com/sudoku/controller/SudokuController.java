@@ -51,7 +51,7 @@ public class SudokuController {
         field.findSolutions(field.getCells());
 
         model.addAttribute("field", field);
-        model.addAttribute("maxloesungenerreicht", field.getSolutions().size() == SudokuField.MAXSOLUTIONS);
+        model.addAttribute("max", field.getSolutions().size() == SudokuField.MAXSOLUTIONS);
 
         return "solution";
     }

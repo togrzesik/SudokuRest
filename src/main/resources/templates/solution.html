@@ -31,9 +31,9 @@
 
 <main>
     <h2>Sudoku Solver - Rozwiązania</h2>
-    <p th:if="${maxloesungenerreicht}"
+    <p th:if="${max}"
        th:text="'Znaleziono ' + ${#lists.size(field.solutions)} +' rozwiązań. Poszukiwanie rozwiązania zostało wówczas przerwane..'">Numer rozwiązania</p>
-    <p th:unless="${maxloesungenerreicht}"
+    <p th:unless="${max}"
        th:text="'Znaleziono' + ${#lists.size(field.solutions)} +' rozwiązań.'">Numer rozwiązania</p>
     <div th:each="solution, solstat : ${field.solutions}" class="field">
         <h3 th:text="${solstat.count} + '. Rozwiązanie:'">x. Rozwiązanie</h3>
